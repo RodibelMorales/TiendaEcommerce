@@ -1,0 +1,7 @@
+@media (min-width: 0px){
+	.imgLogo{display: none;}
+}
+@media (min-width:780px){
+	.navbar-brand{display: none;}
+	.imgLogo{display: block;}
+}

@@ -1,0 +1,193 @@
+
+/*Estilos genericos*/
+	.faSpace{margin-right: 5px;}
+	.alingcenter{text-align: center !important;}
+/*Header*/
+	p.cartHeader {width: 105px;text-align: center;float: right;position: relative;top: -70px;cursor: pointer;}
+	i.fa.fa-shopping-cart {margin-right: 5px;}
+/*Nav*/
+	.navbar-default {background-color: #161412!important;border-color: #a29427!important;}
+	.imgLogo {margin: 0 auto;width: 20%;}
+	.navbar-brand{padding: 0px 0px;}
+	.img-responsiveR{width: 80px;}
+	.navbar-default .navbar-nav>li>a {color: #a29427;}
+	.navbar-default .navbar-nav>li>a:hover {color:#fff;}
+	ul.nav.navbar-nav.centerMenu {width:44%;margin:0 auto;float: none !important;}
+	i.fa.fa-cart-plus {margin: 5px;}
+	.btncart{width: 100%;}
+	h3.titleProduct {font-size: 15pt;text-align: center;}
+	p.detailsInfo {margin-left: 15px;}
+	p.detailsInfo:hover {cursor: pointer;color:#a29427; }
+	i.fa.fa-info-circle {margin-right: 5px;}
+	.dropdownit {
+	    position: relative;
+	    display: inline-block;
+	}
+	.dropdownitems {
+	    display: none;
+	    position: absolute;
+	    background-color: #161412;
+	    min-width: 100%;
+	    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	    padding: 12px 16px;
+	    z-index: 1;
+	    list-style: none;
+	    color: #fff
+	}
+	.dropdownit:hover {
+            -moz-transition:        0.2s opacity ease-in, 0s left linear 0.22s;
+            -webkit-transition:     0.2s opacity ease-in, 0s left linear 0.22s;
+            -khtml-transition:      0.2s opacity ease-in, 0s left linear 0.22s;
+            -icab-transition:       0.2s opacity ease-in, 0s left linear 0.22s;
+            -ms-transition:         0.2s opacity ease-in, 0s left linear 0.22s;
+            -o-transition:          0.2s opacity ease-in, 0s left linear 0.22s;
+            transition:             0.2s opacity ease-in, 0s left linear 0.22s;
+	}
+	.dropdownit:hover .dropdownitems {
+	    display: block;
+	}
+	.liSubcategorias{
+		color: #fff;
+	}
+	.liSubcategorias:hover {
+		color: #a29427;
+		text-decoration: none;
+	}
+/*-------------------------------------MODULO ADMINISTRADOR---------------------------------------------------*/
+	.logoAdmin {
+	    width: 80%;
+	    margin: 0 auto;
+	    margin-bottom: 20px;
+	    margin-left: -7px;
+	    margin-top: 20px;
+	}
+	.col-md-2.panelBorde {
+	    border-right-style: solid;
+	    border-right-width: 1px;
+	}
+	.btnadmin{
+	    float: right;
+    	margin-top: 40px;
+	}
+	/*----Modulo brand*/
+		h3.titlebrand {
+		    text-align: center;
+		    font-size: 15pt;
+		}
+		.btnBrand {
+		    margin-top: 5px;
+		    width: 100% !important;
+		    /* margin: 0px; */
+		}
+		.tablaTipoProducto {
+		    height: 500px;
+		    overflow: auto;
+		}
+		.formAddTipoArticuloedit {
+		    margin: 0 auto;
+		    width: 70%;
+		}
+		button.btn.btn-success.btnBrandedit {
+		    width: 100%;
+		    margin-top: 5px;
+		    height: 45px;
+		}
+		input#tproduct {
+		    height: 45px;
+		}
+	/*Modulo categorias*/
+		#opcionesubcat{
+			height: auto;
+		}
+		.showoptionupdatecat {
+		    display: block;
+		    width: 80%;
+		    height: 100px;
+		    margin: 0 auto;
+		}
+		.noshowoptionupdatecat{
+			display: none;
+		}
+		.showtablesubcat{
+			display: grid;
+		}
+		.hidetablesubcat{
+			display: none;
+		}
+		.modal-sm-custom {
+		    width: 30%;
+		}
+	/*Modulo productos*/
+		button.btn.btn-success.btnaddproduct {
+		    float: right;
+		    margin: 10px;
+		    height: 40px;
+		}
+		.paddingespace{
+			padding-top: 8px;
+		}
+		.spacesizes {padding-bottom: 30px;}
+		input.inputdestacado {margin-right: 10px;margin-left: 15px;}
+		.ctrlsize{resize: none;}
+		.form-group.leftbtnaddproduct {float: right;margin-right: 25px;}
+		.titleopciones{
+		    font-size: 16px;
+		    font-weight:500;
+		    text-align: center;
+		    border-bottom-style: solid;
+		    border-bottom-width: 1px;
+		}
+		input.hidebtncheck {display: none;}
+		label.checkbox-inline.paddingespace {padding-left: 0px;}
+		.contentradio {margin: 0 auto;width: 65%;}
+		.tdwidth{width: 10px; vertical-align: middle;}
+		.infoproductos {
+		    overflow-y: auto;
+		    height: 400px;
+		    margin-top: 60px;
+		}
+		.containeraddproduct {
+		    position: absolute;
+		    right: 30px;
+		}
+/*----------------------PRODUCTOS vista frontEnd----------------------*/
+	/*contenedor items productos*/
+		.selectModalProducts {
+		    width: 100% !important;
+		}
+		.price1{
+			margin-left: 15px;
+		}
+		p.txtdescripcion {
+		    text-align: justify;
+		    line-height: 18px;
+		    margin-left: 15px;
+		    margin-right: 15px;
+		}
+		span.titlespan {
+		    font-weight: bold;
+		    color: #a29426;
+		}
+		span.pricespan {
+		    margin-left: 5px;
+		    font-weight: bold;
+		}
+		.margincaptioninfo{
+		    margin-left: 15px;
+		    margin-right: 15px;
+		}
+		.thumbnail{
+			padding: 0px;
+		}
+		p.last-price {
+		    text-decoration: line-through;
+		    text-decoration: #000;
+		    text-decoration-color: red;
+		    text-decoration-color: red;
+		}
+		.infoitem {
+		    padding-top: 78px;
+		}
+		input#inlineCheckbox1 {
+		    margin: 5px;
+		}
