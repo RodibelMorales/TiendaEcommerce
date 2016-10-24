@@ -1,0 +1,577 @@
+array(56) {
+  ["mc_gross"]=>
+  string(6) "321.00"
+  ["settle_amount"]=>
+  string(5) "22.95"
+  ["protection_eligibility"]=>
+  string(8) "Eligible"
+  ["address_status"]=>
+  string(9) "confirmed"
+  ["item_number1"]=>
+  string(2) "15"
+  ["tax"]=>
+  string(4) "0.00"
+  ["item_number2"]=>
+  string(2) "15"
+  ["payer_id"]=>
+  string(13) "N4PD4KFCSE4JQ"
+  ["address_street"]=>
+  string(9) "1 Main St"
+  ["payment_date"]=>
+  string(25) "09:49:43 Oct 15, 2016 PDT"
+  ["payment_status"]=>
+  string(9) "Completed"
+  ["charset"]=>
+  string(12) "windows-1252"
+  ["address_zip"]=>
+  string(5) "95131"
+  ["mc_shipping"]=>
+  string(4) "0.00"
+  ["mc_handling"]=>
+  string(4) "0.00"
+  ["first_name"]=>
+  string(7) "Rodibel"
+  ["mc_fee"]=>
+  string(5) "13.31"
+  ["address_country_code"]=>
+  string(2) "US"
+  ["exchange_rate"]=>
+  string(9) "0.0745880"
+  ["address_name"]=>
+  string(22) "Rodibel Morales Alonso"
+  ["notify_version"]=>
+  string(3) "3.8"
+  ["settle_currency"]=>
+  string(3) "USD"
+  ["custom"]=>
+  string(0) ""
+  ["payer_status"]=>
+  string(8) "verified"
+  ["business"]=>
+  string(24) "vendedorYaxkin@gmail.com"
+  ["address_country"]=>
+  string(13) "United States"
+  ["num_cart_items"]=>
+  string(1) "2"
+  ["mc_handling1"]=>
+  string(4) "0.00"
+  ["mc_handling2"]=>
+  string(4) "0.00"
+  ["address_city"]=>
+  string(8) "San Jose"
+  ["verify_sign"]=>
+  string(56) "ANwFFiiHBrwGttnkRYmhmGrNPKCwAjbdYOn.ZNeQAozk4RCYg6mfegM."
+  ["payer_email"]=>
+  string(25) "compradoryaxkin@gmail.com"
+  ["mc_shipping1"]=>
+  string(4) "0.00"
+  ["mc_shipping2"]=>
+  string(4) "0.00"
+  ["tax1"]=>
+  string(4) "0.00"
+  ["tax2"]=>
+  string(4) "0.00"
+  ["txn_id"]=>
+  string(17) "5CA25098XA316114X"
+  ["payment_type"]=>
+  string(7) "instant"
+  ["last_name"]=>
+  string(14) "Morales Alonso"
+  ["address_state"]=>
+  string(2) "CA"
+  ["item_name1"]=>
+  string(5) "demo3"
+  ["receiver_email"]=>
+  string(24) "vendedorYaxkin@gmail.com"
+  ["item_name2"]=>
+  string(5) "demo3"
+  ["payment_fee"]=>
+  string(0) ""
+  ["quantity1"]=>
+  string(1) "2"
+  ["quantity2"]=>
+  string(1) "1"
+  ["receiver_id"]=>
+  string(13) "YTZKE2Y335F6N"
+  ["txn_type"]=>
+  string(4) "cart"
+  ["mc_gross_1"]=>
+  string(6) "200.00"
+  ["mc_currency"]=>
+  string(3) "MXN"
+  ["mc_gross_2"]=>
+  string(6) "121.00"
+  ["residence_country"]=>
+  string(2) "US"
+  ["test_ipn"]=>
+  string(1) "1"
+  ["transaction_subject"]=>
+  string(0) ""
+  ["payment_gross"]=>
+  string(0) ""
+  ["ipn_track_id"]=>
+  string(13) "89a80aa69f9a7"
+}
+array(48) {
+  ["mc_gross"]=>
+  string(6) "221.00"
+  ["settle_amount"]=>
+  string(5) "15.71"
+  ["protection_eligibility"]=>
+  string(10) "Ineligible"
+  ["address_status"]=>
+  string(9) "confirmed"
+  ["item_number1"]=>
+  string(2) "20"
+  ["item_number2"]=>
+  string(2) "20"
+  ["payer_id"]=>
+  string(13) "N4PD4KFCSE4JQ"
+  ["address_street"]=>
+  string(9) "1 Main St"
+  ["payment_date"]=>
+  string(25) "19:02:15 Oct 18, 2016 PDT"
+  ["payment_status"]=>
+  string(7) "Pending"
+  ["charset"]=>
+  string(12) "windows-1252"
+  ["address_zip"]=>
+  string(5) "95131"
+  ["first_name"]=>
+  string(7) "Rodibel"
+  ["mc_fee"]=>
+  string(5) "10.41"
+  ["address_country_code"]=>
+  string(2) "US"
+  ["exchange_rate"]=>
+  string(9) "0.0746153"
+  ["address_name"]=>
+  string(22) "Rodibel Morales Alonso"
+  ["notify_version"]=>
+  string(3) "3.8"
+  ["settle_currency"]=>
+  string(3) "USD"
+  ["custom"]=>
+  string(0) ""
+  ["payer_status"]=>
+  string(8) "verified"
+  ["business"]=>
+  string(24) "vendedorYaxkin@gmail.com"
+  ["address_country"]=>
+  string(13) "United States"
+  ["num_cart_items"]=>
+  string(1) "2"
+  ["address_city"]=>
+  string(8) "San Jose"
+  ["verify_sign"]=>
+  string(56) "AqBqA1nSf.CEBj1d5rbDP.LO-woKA7tOeRxghPwxh1FIBh-7tcKelCf3"
+  ["payer_email"]=>
+  string(25) "compradoryaxkin@gmail.com"
+  ["txn_id"]=>
+  string(17) "7Y062178316184143"
+  ["payment_type"]=>
+  string(7) "instant"
+  ["last_name"]=>
+  string(14) "Morales Alonso"
+  ["address_state"]=>
+  string(2) "CA"
+  ["item_name1"]=>
+  string(5) "demo3"
+  ["receiver_email"]=>
+  string(24) "vendedorYaxkin@gmail.com"
+  ["item_name2"]=>
+  string(5) "demo3"
+  ["payment_fee"]=>
+  string(0) ""
+  ["quantity1"]=>
+  string(1) "1"
+  ["quantity2"]=>
+  string(1) "1"
+  ["receiver_id"]=>
+  string(13) "YTZKE2Y335F6N"
+  ["pending_reason"]=>
+  string(13) "paymentreview"
+  ["txn_type"]=>
+  string(4) "cart"
+  ["mc_gross_1"]=>
+  string(6) "100.00"
+  ["mc_currency"]=>
+  string(3) "MXN"
+  ["mc_gross_2"]=>
+  string(6) "121.00"
+  ["residence_country"]=>
+  string(2) "US"
+  ["test_ipn"]=>
+  string(1) "1"
+  ["transaction_subject"]=>
+  string(0) ""
+  ["payment_gross"]=>
+  string(0) ""
+  ["ipn_track_id"]=>
+  string(13) "15d62040d7dab"
+}
+array(48) {
+  ["mc_gross"]=>
+  string(7) "1300.00"
+  ["settle_amount"]=>
+  string(5) "93.88"
+  ["protection_eligibility"]=>
+  string(10) "Ineligible"
+  ["address_status"]=>
+  string(9) "confirmed"
+  ["item_number1"]=>
+  string(2) "21"
+  ["item_number2"]=>
+  string(2) "21"
+  ["payer_id"]=>
+  string(13) "N4PD4KFCSE4JQ"
+  ["address_street"]=>
+  string(9) "1 Main St"
+  ["payment_date"]=>
+  string(25) "19:53:49 Oct 18, 2016 PDT"
+  ["payment_status"]=>
+  string(7) "Pending"
+  ["charset"]=>
+  string(12) "windows-1252"
+  ["address_zip"]=>
+  string(5) "95131"
+  ["first_name"]=>
+  string(7) "Rodibel"
+  ["mc_fee"]=>
+  string(5) "41.70"
+  ["address_country_code"]=>
+  string(2) "US"
+  ["exchange_rate"]=>
+  string(9) "0.0746153"
+  ["address_name"]=>
+  string(22) "Rodibel Morales Alonso"
+  ["notify_version"]=>
+  string(3) "3.8"
+  ["settle_currency"]=>
+  string(3) "USD"
+  ["custom"]=>
+  string(0) ""
+  ["payer_status"]=>
+  string(8) "verified"
+  ["business"]=>
+  string(24) "vendedorYaxkin@gmail.com"
+  ["address_country"]=>
+  string(13) "United States"
+  ["num_cart_items"]=>
+  string(1) "2"
+  ["address_city"]=>
+  string(8) "San Jose"
+  ["verify_sign"]=>
+  string(56) "A0asK6oiIZmtBFrRCq-Iiqf8lrk.AsW7ErP-mSD9zApWbzqT7G6VV7M8"
+  ["payer_email"]=>
+  string(25) "compradoryaxkin@gmail.com"
+  ["txn_id"]=>
+  string(17) "8E830224999504732"
+  ["payment_type"]=>
+  string(7) "instant"
+  ["last_name"]=>
+  string(14) "Morales Alonso"
+  ["address_state"]=>
+  string(2) "CA"
+  ["item_name1"]=>
+  string(5) "demo3"
+  ["receiver_email"]=>
+  string(24) "vendedorYaxkin@gmail.com"
+  ["item_name2"]=>
+  string(14) "Guayabera azul"
+  ["payment_fee"]=>
+  string(0) ""
+  ["quantity1"]=>
+  string(1) "1"
+  ["quantity2"]=>
+  string(1) "1"
+  ["receiver_id"]=>
+  string(13) "YTZKE2Y335F6N"
+  ["pending_reason"]=>
+  string(13) "paymentreview"
+  ["txn_type"]=>
+  string(4) "cart"
+  ["mc_gross_1"]=>
+  string(6) "100.00"
+  ["mc_currency"]=>
+  string(3) "MXN"
+  ["mc_gross_2"]=>
+  string(7) "1200.00"
+  ["residence_country"]=>
+  string(2) "US"
+  ["test_ipn"]=>
+  string(1) "1"
+  ["transaction_subject"]=>
+  string(0) ""
+  ["payment_gross"]=>
+  string(0) ""
+  ["ipn_track_id"]=>
+  string(13) "1742c9649e7f0"
+}
+Array
+(
+    [mc_gross] => 1300.00
+    [settle_amount] => 93.88
+    [protection_eligibility] => Ineligible
+    [address_status] => confirmed
+    [item_number1] => 22
+    [item_number2] => 22
+    [payer_id] => N4PD4KFCSE4JQ
+    [address_street] => 1 Main St
+    [payment_date] => 20:35:50 Oct 18, 2016 PDT
+    [payment_status] => Pending
+    [charset] => windows-1252
+    [address_zip] => 95131
+    [first_name] => Rodibel
+    [mc_fee] => 41.70
+    [address_country_code] => US
+    [exchange_rate] => 0.0746153
+    [address_name] => Rodibel Morales Alonso
+    [notify_version] => 3.8
+    [settle_currency] => USD
+    [custom] => 
+    [payer_status] => verified
+    [business] => vendedorYaxkin@gmail.com
+    [address_country] => United States
+    [num_cart_items] => 2
+    [address_city] => San Jose
+    [verify_sign] => AiKZhEEPLJjSIccz.2M.tbyW5YFwAXYfBb7HWubNXyt-Lm3H-WLZuWm6
+    [payer_email] => compradoryaxkin@gmail.com
+    [txn_id] => 52125551XB182800U
+    [payment_type] => instant
+    [last_name] => Morales Alonso
+    [address_state] => CA
+    [item_name1] => demo3
+    [receiver_email] => vendedorYaxkin@gmail.com
+    [item_name2] => Guayabera azul
+    [payment_fee] => 
+    [quantity1] => 1
+    [quantity2] => 1
+    [receiver_id] => YTZKE2Y335F6N
+    [pending_reason] => paymentreview
+    [txn_type] => cart
+    [mc_gross_1] => 100.00
+    [mc_currency] => MXN
+    [mc_gross_2] => 1200.00
+    [residence_country] => US
+    [test_ipn] => 1
+    [transaction_subject] => 
+    [payment_gross] => 
+    [ipn_track_id] => 53019f8c26617
+)
+Array
+(
+    [mc_gross] => 1300.00
+    [settle_amount] => 93.88
+    [protection_eligibility] => Ineligible
+    [address_status] => confirmed
+    [item_number1] => 23
+    [item_number2] => 23
+    [payer_id] => N4PD4KFCSE4JQ
+    [address_street] => 1 Main St
+    [payment_date] => 21:08:13 Oct 18, 2016 PDT
+    [payment_status] => Pending
+    [charset] => windows-1252
+    [address_zip] => 95131
+    [first_name] => Rodibel
+    [mc_fee] => 41.70
+    [address_country_code] => US
+    [exchange_rate] => 0.0746153
+    [address_name] => Rodibel Morales Alonso
+    [notify_version] => 3.8
+    [settle_currency] => USD
+    [custom] => 
+    [payer_status] => verified
+    [business] => vendedorYaxkin@gmail.com
+    [address_country] => United States
+    [num_cart_items] => 2
+    [address_city] => San Jose
+    [verify_sign] => AgePMPfbDDc05TM5uouG2O9s9U74AYPn9EoN-oKXzMVjhDi768KODtl7
+    [payer_email] => compradoryaxkin@gmail.com
+    [txn_id] => 8T328347V8462100C
+    [payment_type] => instant
+    [last_name] => Morales Alonso
+    [address_state] => CA
+    [item_name1] => demo3
+    [receiver_email] => vendedorYaxkin@gmail.com
+    [item_name2] => Guayabera azul
+    [payment_fee] => 
+    [quantity1] => 1
+    [quantity2] => 1
+    [receiver_id] => YTZKE2Y335F6N
+    [pending_reason] => paymentreview
+    [txn_type] => cart
+    [mc_gross_1] => 100.00
+    [mc_currency] => MXN
+    [mc_gross_2] => 1200.00
+    [residence_country] => US
+    [test_ipn] => 1
+    [transaction_subject] => 
+    [payment_gross] => 
+    [ipn_track_id] => b8caa9fe03be8
+)
+Array
+(
+    [mc_gross] => 1300.00
+    [settle_amount] => 93.88
+    [protection_eligibility] => Ineligible
+    [address_status] => confirmed
+    [item_number1] => 24
+    [item_number2] => 24
+    [payer_id] => N4PD4KFCSE4JQ
+    [address_street] => 1 Main St
+    [payment_date] => 21:39:09 Oct 18, 2016 PDT
+    [payment_status] => Pending
+    [charset] => windows-1252
+    [address_zip] => 95131
+    [first_name] => Rodibel
+    [mc_fee] => 41.70
+    [address_country_code] => US
+    [exchange_rate] => 0.0746153
+    [address_name] => Rodibel Morales Alonso
+    [notify_version] => 3.8
+    [settle_currency] => USD
+    [custom] => 
+    [payer_status] => verified
+    [business] => vendedorYaxkin@gmail.com
+    [address_country] => United States
+    [num_cart_items] => 2
+    [address_city] => San Jose
+    [verify_sign] => AWHwKBMoVXhTmv6W8P6KccBSLnxQAT-oet.SPiF4B4DPqoMuiV.e6wrq
+    [payer_email] => compradoryaxkin@gmail.com
+    [txn_id] => 6KR04356GF695190L
+    [payment_type] => instant
+    [last_name] => Morales Alonso
+    [address_state] => CA
+    [item_name1] => demo3
+    [receiver_email] => vendedorYaxkin@gmail.com
+    [item_name2] => Guayabera azul
+    [payment_fee] => 
+    [quantity1] => 1
+    [quantity2] => 1
+    [receiver_id] => YTZKE2Y335F6N
+    [pending_reason] => paymentreview
+    [txn_type] => cart
+    [mc_gross_1] => 100.00
+    [mc_currency] => MXN
+    [mc_gross_2] => 1200.00
+    [residence_country] => US
+    [test_ipn] => 1
+    [transaction_subject] => 
+    [payment_gross] => 
+    [ipn_track_id] => 7d41ab45c3c77
+)
+Array
+(
+    [mc_gross] => 1300.00
+    [settle_amount] => 93.88
+    [protection_eligibility] => Eligible
+    [address_status] => confirmed
+    [item_number1] => 25
+    [tax] => 0.00
+    [item_number2] => 25
+    [payer_id] => N4PD4KFCSE4JQ
+    [address_street] => 1 Main St
+    [payment_date] => 22:13:59 Oct 18, 2016 PDT
+    [payment_status] => Completed
+    [charset] => windows-1252
+    [address_zip] => 95131
+    [mc_shipping] => 0.00
+    [mc_handling] => 0.00
+    [first_name] => Rodibel
+    [mc_fee] => 41.70
+    [address_country_code] => US
+    [exchange_rate] => 0.0746085
+    [address_name] => Rodibel Morales Alonso
+    [notify_version] => 3.8
+    [settle_currency] => USD
+    [custom] => 
+    [payer_status] => verified
+    [business] => vendedorYaxkin@gmail.com
+    [address_country] => United States
+    [num_cart_items] => 2
+    [mc_handling1] => 0.00
+    [mc_handling2] => 0.00
+    [address_city] => San Jose
+    [verify_sign] => AE.pCRu8dAgEChKtiAO8IAX666.2An-wk6gQJkDMcmFhL19TZ12L.fn6
+    [payer_email] => compradoryaxkin@gmail.com
+    [mc_shipping1] => 0.00
+    [mc_shipping2] => 0.00
+    [tax1] => 0.00
+    [tax2] => 0.00
+    [txn_id] => 9VA42248JC439401R
+    [payment_type] => instant
+    [last_name] => Morales Alonso
+    [address_state] => CA
+    [item_name1] => demo3
+    [receiver_email] => vendedorYaxkin@gmail.com
+    [item_name2] => Guayabera azul
+    [payment_fee] => 
+    [quantity1] => 1
+    [quantity2] => 1
+    [receiver_id] => YTZKE2Y335F6N
+    [txn_type] => cart
+    [mc_gross_1] => 100.00
+    [mc_currency] => MXN
+    [mc_gross_2] => 1200.00
+    [residence_country] => US
+    [test_ipn] => 1
+    [transaction_subject] => 
+    [payment_gross] => 
+    [ipn_track_id] => 6d3f30186fe02
+)
+Array
+(
+    [mc_gross] => 900.00
+    [settle_amount] => 64.90
+    [protection_eligibility] => Ineligible
+    [address_status] => confirmed
+    [item_number1] => 26
+    [item_number2] => 26
+    [payer_id] => N4PD4KFCSE4JQ
+    [item_number3] => 26
+    [address_street] => 1 Main St
+    [payment_date] => 22:24:27 Oct 18, 2016 PDT
+    [payment_status] => Pending
+    [charset] => windows-1252
+    [address_zip] => 95131
+    [first_name] => Rodibel
+    [mc_fee] => 30.10
+    [address_country_code] => US
+    [exchange_rate] => 0.0746153
+    [address_name] => Rodibel Morales Alonso
+    [notify_version] => 3.8
+    [settle_currency] => USD
+    [custom] => 
+    [payer_status] => verified
+    [business] => vendedorYaxkin@gmail.com
+    [address_country] => United States
+    [num_cart_items] => 3
+    [address_city] => San Jose
+    [verify_sign] => ALBe4QrXe2sJhpq1rIN8JxSbK4RZA5p-w6jrx-G9hpZPo3DhQwjmwh.v
+    [payer_email] => compradoryaxkin@gmail.com
+    [txn_id] => 64T73037Y4644230M
+    [payment_type] => instant
+    [last_name] => Morales Alonso
+    [address_state] => CA
+    [item_name1] => demo3
+    [receiver_email] => vendedorYaxkin@gmail.com
+    [item_name2] => Guayabera azul
+    [payment_fee] => 
+    [item_name3] => Guayabera 3
+    [quantity1] => 1
+    [quantity2] => 1
+    [receiver_id] => YTZKE2Y335F6N
+    [pending_reason] => paymentreview
+    [quantity3] => 3
+    [txn_type] => cart
+    [mc_gross_1] => 100.00
+    [mc_currency] => MXN
+    [mc_gross_2] => 200.00
+    [mc_gross_3] => 600.00
+    [residence_country] => US
+    [test_ipn] => 1
+    [transaction_subject] => 
+    [payment_gross] => 
+    [ipn_track_id] => 2cc7a47e577b1
+)

@@ -1,3 +1,4 @@
+<?php include('../cpanel/includesAdmin/checksession.php'); ?>
 <!DOCTYPE html>
 <html>
 <head>

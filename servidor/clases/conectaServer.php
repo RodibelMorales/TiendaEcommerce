@@ -2,11 +2,13 @@
 $confi= null;
 $confi= array();
 $confi['server'] = 'localhost';
-$confi['usuario'] = 'root';
-#$confi['clave'] = '';
-$confi['clave'] = 'medalofhonor';
-#$confi['clave'] = 'moh';
-$confi['basedato'] = 'dbyaxkin';
+#$confi['usuario'] = 'root';
+$confi['usuario'] = 'yaxkingu_ecommer';
+#$confi['clave'] = 'medalofhonor';
+$confi['clave'] = 'medalofhonor1993yaxkin';
+#$confi['clave'] = 'medalofhonor';
+$confi['basedato'] = 'yaxkingu_ecommerce';
+#$confi['basedato'] ='dbyaxkin';
 $con = new conexionBD($confi['server'],$confi['usuario'],$confi['clave'],$confi['basedato']);
 
 	class conexionBD{

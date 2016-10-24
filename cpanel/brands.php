@@ -1,4 +1,5 @@
 <?php 
+	include('../cpanel/includesAdmin/checksession.php');
 	include ('../servidor/clases/classcontroler.php');
 	$brands = new showQuerys;	
 ?>
@@ -22,7 +23,7 @@
 						<div class="col-md-6">
 							<h3 class="titlebrand"><i class="fa fa-plus-circle faSpace" aria-hidden="true"></i>Agregar tipo de articulo</h3>
 							<div class="formAddTipoArticulo">
-								<form class="form-horizontal" action="../Servidor/enviosPost/nbrand.php" method="post">
+								<form class="form-horizontal" action="../servidor/enviosPost/nbrand.php" method="post">
 								  <div class="form-group">
 								    <label for="TipoProducto" class="col-sm-2 control-label"></label>
 								    <div class="col-md-8">

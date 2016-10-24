@@ -1,4 +1,5 @@
-<?php 
+<?php
+    include('../cpanel/includesAdmin/checksession.php');
 	include ('../servidor/clases/classcontroler.php');
 	$brands = new showQuerys;
 ?>
@@ -17,7 +18,7 @@
 			<?php include('../cpanel/includesAdmin/menuactions.php');?>
 			</div>
 			<div class="col-md-10">
-				<div class="col-md-3">
+				<div class="col-xsm-12 col-sm-12 col-md-3">
 					<div class="row">
 						<div class="col-md-12">
 							<form class="form-horizontal" action="../servidor/enviosPost/addcategorie.php" method="post">
@@ -41,19 +42,21 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-9">
-					<table class="table table-hover alingcenter" id="cats">
-					    <thead>
-					      	<tr>
-					        	<th class="alingcenter">Categoria</th>
-					        	<th class="alingcenter">Sub-Categoria</th>
-					        	<th class="alingcenter">Opciones</th>
-					      	</tr>
-					    </thead>
-					    <tbody>
-					    <?php $brands ->categoriasview(); ?>
-					    </tbody>	
-					</table>
+				<div class="col-xsm-12 col-sm-12 col-md-9">
+					<div class="table-responsive">
+						<table class="table table-hover alingcenter" id="cats">
+						    <thead>
+						      	<tr>
+						        	<th class="alingcenter">Categoria</th>
+						        	<th class="alingcenter">Sub-Categoria</th>
+						        	<th class="alingcenter">Opciones</th>
+						      	</tr>
+						    </thead>
+						    <tbody>
+						    <?php $brands ->categoriasview(); ?>
+						    </tbody>	
+						</table>
+					</div>
 
 				</div>
 			</div>

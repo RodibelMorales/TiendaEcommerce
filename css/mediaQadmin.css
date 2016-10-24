@@ -1,0 +1,88 @@
+@media (min-width: 0px){
+	.logoAdmin {
+	    width: 33%;
+	    margin: 0 auto;
+	    margin-bottom: 0px;
+	    margin-left: -7px;
+	    margin-top: 42px;
+	}
+	.btnadmin {
+	    margin-top: -40px;
+	    width: 110px;
+	    float: right;
+	    /* margin-left: 25px; */
+	}
+	.containeraddproduct {
+	    position: absolute;
+	    right: 2px;
+	    top: -60px;
+	}
+}
+@media (min-width: 360px){
+
+}
+@media (min-width: 411px){
+
+}
+@media (min-width: 480px){
+
+}
+@media (min-width: 540px){
+
+}
+@media (min-width: 768px){
+	.nav-stacked>li {
+	    float: left !important;
+	}
+}
+@media (min-width:780px){
+
+}
+@media (min-width: 800px){
+
+}
+@media (min-width: 960px){
+
+}
+@media (min-width: 1024px){
+	a.btn.btn-warning {
+	    margin: 5px;
+	}
+	a.btn.btn-info {
+	    margin: 5px;
+	}
+	.btnadmin {
+	    margin-top: 40px;
+	    width: 110px;
+	    float: right;
+	    margin-right: 50px;
+	}
+}
+@media (min-width: 1280px){
+	.logoAdmin {
+	    width: 80%;
+	    margin: 0 auto;
+	    margin-bottom: 20px;
+	    margin-left: -7px;
+	    margin-top: 20px;
+	}
+.btnadmin {
+	    margin-top: 40px;
+	    width: 110px;
+	    float: right;
+	    margin-right: 50px;
+	}
+}
+@media (min-width: 1368px){
+
+}
+@media (min-width: 1440px){
+
+}
+@media (min-width: 1500px){
+
+
+}
+@media (min-width: 2560px){
+
+}

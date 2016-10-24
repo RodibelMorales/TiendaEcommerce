@@ -1,5 +1,5 @@
 <?php 
-	include('../../servidor/clases/classcontroler.php');
+	include '../clases/classcontroler.php';
 	$updateCategoria = new acciones();
 	if (isset($_POST)) {
 		$updateCategoria->id = $_POST['idcategoria'];

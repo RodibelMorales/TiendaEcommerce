@@ -5,4 +5,5 @@
 	include 'adds.php'; #clase que realizará los inserts en la base de datos
 	include 'acciones.php';
 	include 'accionescarrito.php';#clase encargada de los elementos del carrito
+	include 'sessiones.php'; #clase que controla las sessiones del administrador
 ?>

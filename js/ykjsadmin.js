@@ -1,5 +1,10 @@
 function confirmaDelete() {
-	confirm("¿Realmente desea eliminar esta categoria?");
+	
+	if (confirm("¿Realmente desea eliminar?") == true) {
+
+	}else {
+		return false;
+	}
 }
 	$("#cats").on("click",".idsub",function(e){	
 		var idaupdate = $(this).attr("id");

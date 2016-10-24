@@ -1,5 +1,5 @@
 <?php 
-	include('../../servidor/clases/classcontroler.php');
+	include '../clases/classcontroler.php';
  	$Tipoaccion = new acciones;
  	if ($_REQUEST['subcategoria']) {
  		$Tipoaccion->id = $_REQUEST['subcategoria'];

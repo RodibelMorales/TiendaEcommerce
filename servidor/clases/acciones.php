@@ -25,8 +25,7 @@
 		public $subcategoria_id;
 		/*-----------------------------------*/
 		public function DeleteBrand(){
-			#$enlaceDeleteBrand = mysqli_connect("localhost","root","","dbyaxkin");
-			$enlaceDeleteBrand = mysqli_connect("localhost","root","medalofhonor","dbyaxkin");
+			$enlaceDeleteBrand = mysqli_connect('localhost','yaxkingu_ecommer','medalofhonor1993yaxkin','yaxkingu_ecommerce');
 			$Delete = mysqli_query($enlaceDeleteBrand, "DELETE FROM `brand` WHERE id='{$this->id}' ");
 
 			if ($Delete){
@@ -36,8 +35,7 @@
 			}
 		}
 		public function EditBrand(){
-			#$enlaceEditBrand = mysqli_connect("localhost","root","","dbyaxkin");
-			$enlaceEditBrand = mysqli_connect("localhost","root","medalofhonor","dbyaxkin");
+			$enlaceEditBrand =mysqli_connect('localhost','yaxkingu_ecommer','medalofhonor1993yaxkin','yaxkingu_ecommerce');
 			$editbrand = mysqli_query($enlaceEditBrand,"UPDATE brand SET marca='{$this->marca}' WHERE id='{$this->id}'");
 			if ($editbrand) {
 				echo "<script language='JavaScript'> alert('Se guardaron los cambios Correctamente'); window.location='../../cpanel/brands.php';</script>";
@@ -47,8 +45,7 @@
 		}
 		/*------------------------------------*/
 		public function DeleteCategorie(){
-			#$enlacedeletecategorie = mysqli_connect("localhost","root","","dbyaxkin");
-			$enlacedeletecategorie = mysqli_connect("localhost","root","medalofhonor","dbyaxkin");
+			$enlacedeletecategorie = mysqli_connect('localhost','yaxkingu_ecommer','medalofhonor1993yaxkin','yaxkingu_ecommerce');
 			$deletecategorie = mysqli_query($enlacedeletecategorie,"DELETE FROM categorias WHERE id='{$this->id}'");
 				if ($deletecategorie) {
 					$deletesubcategorie = mysqli_query($enlacedeletecategorie,"DELETE FROM categorias WHERE parent='{$this->id}'");
@@ -59,14 +56,13 @@
 						echo "<script language='JavaScript'> alert('No se puedo eliminar la categoria, intanta nuevamente'); window.location='../../cpanel/categorias.php';</script>";
 					}
 				}else{
-					echo "delte completo";
+					echo "delete completo";
 				}
 		}
 		public function UpdateCategoria(){
-			$enlaceUpc = mysqli_connect("localhost","root","medalofhonor","dbyaxkin");
-			#$enlaceUpc = mysqli_connect("localhost","root","","dbyaxkin");
+			$enlaceUpc = mysqli_connect('localhost','yaxkingu_ecommer','medalofhonor1993yaxkin','yaxkingu_ecommerce');
 
-			$upcategoria= mysqli_query($enlaceUpc,"UPDATE categorias SET categoria='{$this->categoria}' WHERE id='{$this->id}'");
+			$upcategoria = mysqli_query($enlaceUpc,"UPDATE categorias SET categoria='{$this->categoria}' WHERE id='{$this->id}'");
 			if ($upcategoria) {
 				echo "<script language='JavaScript'> alert('Categoria actualizada correctamente'); window.location='../../cpanel/categorias.php';</script>";
 			}else{
@@ -75,8 +71,7 @@
 		}
 		/*------------------------------------*/
 		public function deletesubcategoria(){
-			$enlacedeletesubcat = mysqli_connect("localhost","root","medalofhonor","dbyaxkin");
-			#$enlacedeletesubcat = mysqli_connect("localhost","root","","dbyaxkin");
+			$enlacedeletesubcat = mysqli_connect('localhost','yaxkingu_ecommer','medalofhonor1993yaxkin','yaxkingu_ecommerce');
 			
 			$deletesubcat = mysqli_query($enlacedeletesubcat,"DELETE FROM categorias WHERE id='{$this->id}' ");
 			if ($deletesubcat) {
@@ -86,9 +81,8 @@
 			}
 		}
 		public function updatesupcategoria(){
-			$enlaceupsubcat = mysqli_connect("localhost","root","medalofhonor","dbyaxkin");
-			#$enlaceupsubcat = mysqli_connect("localhost","root","","dbyaxkin");
-			$upsubcat =mysqli_query($enlaceupsubcat,"UPDATE categorias set categoria='{$this->categoria}' WHERE id='{$this->id}' ");
+			$enlaceupsubcat = mysqli_connect('localhost','yaxkingu_ecommer','medalofhonor1993yaxkin','yaxkingu_ecommerce');
+			$upsubcat = mysqli_query($enlaceupsubcat,"UPDATE categorias set categoria='{$this->categoria}' WHERE id='{$this->id}' ");
 			if ($upsubcat) {
 				echo "<script language='JavaScript'> alert('Subcategoria actualizada correctamente'); window.location='../../cpanel/categorias.php';</script>";
 			}else{
@@ -98,22 +92,31 @@
 		}
 		/*-------------------------------------*/
 		public function deleteproducto(){
-			$enlacedeletesubcat = mysqli_connect("localhost","root","medalofhonor","dbyaxkin");
-			#$enlacedeletesubcat = mysqli_connect("localhost","root","","dbyaxkin");
-			
-			$deleteproduct = mysqli_query($enlacedeletesubcat,"DELETE FROM productos WHERE id='{$this->id}' ");
-			if ($deleteproduct) {
-				echo "<script language='JavaScript'> alert('Producto Eliminado'); window.location='../../cpanel/productos.php';</script>";
-			}else{
-				echo "<script language='JavaScript'> alert('Error al eliminar Producto'); window.location='../../cpanel/productos.php';</script>";
-			}
+			$deleteProduct = mysqli_connect('localhost','yaxkingu_ecommer','medalofhonor1993yaxkin','yaxkingu_ecommerce');
+			$deleteP = mysqli_query($deleteProduct,"DELETE FROM productos WHERE id='{$this->id}'")or die(mysqli_error($deleteProduct));
+				if ($deleteP) {
+					unlink("../../cpanel/products/".$this->imgdelete);
+					echo "<script language='JavaScript'> alert('Eliminado Correctamente'); window.location='../../cpanel/productos.php';</script>";
+				}else{
+					echo "delete completo";
+				}	
 		}
 		public function updateproducto(){
-			$enlaceupsubcat = mysqli_connect("localhost","root","medalofhonor","dbyaxkin");
-			#$enlaceupsubcat = mysqli_connect("localhost","root","","dbyaxkin");
-			$uproducto = mysqli_query($enlaceupsubcat, "UPDATE productos set titulo ='{$this->titulo}',price='{$this->price}',price_list='{$this->price_list}',brand_id='{$this->brand_id}',categorias_id='{$this->categorias_id}',subcategoria_id='{$this->subcategoria_id}',descripcion='{$this->descripcion}',destacado='{$this->destacado}',tallas='{$this->tallas}', img_producto='{$this->img_producto}' WHERE id ='{$this->id}' ");
+			$enlaceupsubcat = mysqli_connect('localhost','yaxkingu_ecommer','medalofhonor1993yaxkin','yaxkingu_ecommerce');
+			#echo "UPDATE productos set titulo ='{$this->titulo}',price='{$this->price}',price_list='{$this->price_list}',brand_id='{$this->brand_id}',categorias_id='{$this->categorias_id}',descripcion='{$this->descripcion}',destacado='{$this->destacado}',img_producto='{$this->img_producto}' WHERE id ='{$this->idproducto}'";
+			$uproducto = mysqli_query($enlaceupsubcat, "UPDATE productos set titulo ='{$this->titulo}',price='{$this->price}',price_list='{$this->price_list}',brand_id='{$this->brand_id}',categorias_id='{$this->categorias_id}',descripcion='{$this->descripcion}',destacado='{$this->destacado}',img_producto='{$this->img_producto}' WHERE id ='{$this->idproducto}' ");
 			if ($uproducto) {
-				echo "<script language='JavaScript'> alert('Información del producto actualizada correctamente'); window.location='../../cpanel/productos.php';</script>";
+				$upTC1= mysqli_query($enlaceupsubcat, "UPDATE tallas_cantidades SET cantidad ='{$this->cantidad1}' WHERE id_tc ='{$this->idtc1}' AND productos_id='{$this->idproducto}' ");
+				$upTC2= mysqli_query($enlaceupsubcat, "UPDATE tallas_cantidades SET cantidad ='{$this->cantidad2}' WHERE id_tc ='{$this->idtc2}' AND productos_id='{$this->idproducto}' ");
+				$upTC3= mysqli_query($enlaceupsubcat, "UPDATE tallas_cantidades SET cantidad ='{$this->cantidad3}' WHERE id_tc ='{$this->idtc3}' AND productos_id='{$this->idproducto}' ");
+				$upTC4= mysqli_query($enlaceupsubcat, "UPDATE tallas_cantidades SET cantidad ='{$this->cantidad4}' WHERE id_tc ='{$this->idtc4}' AND productos_id='{$this->idproducto}' ");
+				$upTC5= mysqli_query($enlaceupsubcat, "UPDATE tallas_cantidades SET cantidad ='{$this->cantidad5}' WHERE id_tc ='{$this->idtc5}' AND productos_id='{$this->idproducto}' ");
+					if ($upTC1 and $upTC2 and $upTC3 and $upTC4 and $upTC5){
+						echo "<script language='JavaScript'> alert('Se actualizo correctamente el producto ".$this->titulo."'); window.location='../../cpanel/productos.php';</script> ";
+					}else{
+						echo "aqui";
+					}
+				echo "<script language='JavaScript'> alert('Error al actualizar la cantidad de productos'); window.location='../../cpanel/productos.php';</script>";
 			}else{
 				echo "<script language='JavaScript'> alert('Error al actualizar información del producto'); window.location='../../cpanel/productos.php';</script>";
 			}

@@ -3,5 +3,5 @@
 	<link rel="stylesheet" type="text/css" href="../css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/styles.css">
-	<link rel="stylesheet" type="text/css" href="../css/mediaQ.css">
+	<link rel="stylesheet" type="text/css" href="../css/mediaQadmin.css">
 	<link rel="stylesheet" href="../icons/css/font-awesome.min.css">

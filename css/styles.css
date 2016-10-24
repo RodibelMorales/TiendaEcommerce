@@ -2,17 +2,28 @@
 /*Estilos genericos*/
 	.faSpace{margin-right: 5px;}
 	.alingcenter{text-align: center !important;}
+	.contLoading {text-align: center;}
 /*Header*/
-	p.cartHeader {width: 105px;text-align: center;float: right;position: relative;top: -70px;cursor: pointer;}
+	p.cartHeader {
+	    width: 160px;
+	    text-align: center;
+	    float: right;
+	    position: relative;
+	    cursor: pointer;
+	    font-size: 14pt;
+	    font-weight: bold;
+	    color: #fff;
+	}
 	i.fa.fa-shopping-cart {margin-right: 5px;}
 /*Nav*/
-	.navbar-default {background-color: #161412!important;border-color: #a29427!important;}
-	.imgLogo {margin: 0 auto;width: 20%;}
+	.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {color: #d2d0c2 !important;background-color: transparent;}
+	.navbar-default {background-color: #161412!important;border-color: #a29427!important;margin-bottom: 0px;}
+	.imgLogo {margin: 0 auto;width: 23%;}
 	.navbar-brand{padding: 0px 0px;}
 	.img-responsiveR{width: 80px;}
 	.navbar-default .navbar-nav>li>a {color: #a29427;}
 	.navbar-default .navbar-nav>li>a:hover {color:#fff;}
-	ul.nav.navbar-nav.centerMenu {width:44%;margin:0 auto;float: none !important;}
+	ul.nav.navbar-nav.centerMenu {width:80%;margin:0 auto;float: none !important;}
 	i.fa.fa-cart-plus {margin: 5px;}
 	.btncart{width: 100%;}
 	h3.titleProduct {font-size: 15pt;text-align: center;}
@@ -29,7 +40,7 @@
 	    background-color: #161412;
 	    min-width: 100%;
 	    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	    padding: 12px 16px;
+	    padding: 12px 0px;
 	    z-index: 1;
 	    list-style: none;
 	    color: #fff
@@ -43,15 +54,28 @@
             -o-transition:          0.2s opacity ease-in, 0s left linear 0.22s;
             transition:             0.2s opacity ease-in, 0s left linear 0.22s;
 	}
-	.dropdownit:hover .dropdownitems {
-	    display: block;
+	.dropdownit:hover .dropdownitems {display: block;}
+	li.dropdownit {
+	    width: 175px;
+	    text-align: center;
 	}
-	.liSubcategorias{
-		color: #fff;
-	}
-	.liSubcategorias:hover {
-		color: #a29427;
-		text-decoration: none;
+	.liSubcategorias a{color: #fff;}
+	.liSubcategorias a:hover {color: #a29427;text-decoration: none;}
+    .navbar-fixed-top{background: #a29427;}
+    .marginafterfixed{margin-top: 220px;}
+    .containercart1{
+	    width: 150px;
+	    height: 60px;
+	    position: fixed;
+	    z-index: 1060;
+	    right: 30px;
+	    margin-top: 50px;
+    }
+	li.liSubcategorias {
+	    border-bottom-style: solid;
+	    border-bottom-width: 1px;
+	    margin: 2px;
+	    height: 45px;
 	}
 /*-------------------------------------MODULO ADMINISTRADOR---------------------------------------------------*/
 	.logoAdmin {
@@ -64,10 +88,12 @@
 	.col-md-2.panelBorde {
 	    border-right-style: solid;
 	    border-right-width: 1px;
+	    border-right-color: #5084b1;
 	}
-	.btnadmin{
+	.btnadmin {
+	    margin-top: 40px;
+	    width: 160px;
 	    float: right;
-    	margin-top: 40px;
 	}
 	/*----Modulo brand*/
 		h3.titlebrand {
@@ -150,6 +176,41 @@
 		    position: absolute;
 		    right: 30px;
 		}
+		img.imgthumLP {
+		    width: 50px;
+		}
+	/*Modulo login*/
+		h1.welcomeLogin {
+		    text-align: center;
+		}
+		.middlelogin {
+		    width: 35%;
+		    margin: 0 auto;
+		    margin-top: 110px;
+		}
+		.img-logo-login {
+		    width: 60%;
+		    margin: 0 auto;
+		    margin-bottom: 45px;
+		}
+		.txtfooter {
+		    text-align: center;
+		    margin-top: 0px;
+		}
+		.bg-login {
+		    background: url(../img/fondo-login.png);
+		    background-repeat: no-repeat;
+		    width: 100%;
+		    height: 550px;
+		}
+		.addoncustom{
+    		background-color: #a29427 !important;
+    		border: 0px solid #000 !important;
+		}
+		.icologin{
+			color: #fff;
+		}
+
 /*----------------------PRODUCTOS vista frontEnd----------------------*/
 	/*contenedor items productos*/
 		.selectModalProducts {
@@ -186,8 +247,98 @@
 		    text-decoration-color: red;
 		}
 		.infoitem {
-		    padding-top: 78px;
+		    padding-top: 0px;
 		}
 		input#inlineCheckbox1 {
 		    margin: 5px;
 		}
+		.modalheadercustom{
+		    padding: 15px;
+		    border-bottom: 1px solid rgba(229, 229, 229, 0);
+		    padding-bottom: 0px;
+		    padding-top: 0px;
+		}
+		.modal-header .closecustom {
+		    margin-top: 15px;
+		}
+		.cart-products-total {
+		    float: right;
+		    margin: 5px;
+		    font-weight: bold;
+		    font-size: 12pt;
+		}
+		.modal-footercustom {
+		    padding: 15px;
+		    text-align: right;
+		    border-top: 1px solid #e5e5e5;
+		    margin-top: 15px;
+		    padding-top: 10px;
+		    padding-bottom: 10px;
+		}
+		.tablaproductos{
+		    padding: 8px;
+		    line-height: 1.42857143;
+		    vertical-align: middle !important;
+		    text-align: center !important;
+		}
+		.thtitle{
+			vertical-align: middle;
+			text-align: center;
+		}
+		h5.noarticle {
+		    text-align: center;
+		    font-size: 15pt;
+		}
+		.ColFormCustom{
+			width: 9.9%;
+			padding: 5px;
+			float: left;
+		}
+
+		.radio-thumbnail > input {
+			position: absolute !important;
+			clip: rect(1px, 1px, 1px, 1px);
+		}
+
+		.radio-thumbnail > :checked + .thumbnailformcustom {
+		    border-color: #43A047;
+		    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+		    width: 30px;
+		    border-style: solid;
+		}
+		.radio-thumbnail > :disabled + .thumbnailformcustom {
+		  opacity: .5;
+		}
+		h3.txtcolor {
+		    font-weight: bold;
+		    font-size: 12pt;
+		    margin-top: 0px;
+		    margin-bottom: 0px;
+		}
+		.marginFG{margin-bottom: 0px;}
+		.col-md-6.spaceCF {
+		    padding-bottom: 15px;
+		    padding-left: 16px;
+		}
+		.col-md-12.spaceCF {
+		    padding: 0px;
+		    padding-bottom: 15px;
+		}
+		.infoitemcustom {
+		    padding-top: 0px;
+		}
+
+/*Estilos foooter*/
+	#footerFront{background: #000;}
+	img.footer-img {
+		
+	    width: 100%;
+	}
+	h5.yaxkintxt {
+	    /* position: relative; */
+	    color: #ffffff;
+	    font-size: 15pt;
+	    z-index: 39;
+	    margin-top: -104px;
+	    margin-left: 65px;
+	}

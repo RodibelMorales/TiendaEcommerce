@@ -1,0 +1,11 @@
+[12-Oct-2016 11:01:32 America/Mexico_City] PHP Parse error:  syntax error, unexpected ''" selected>Selecciona una cat' (T_ENCAPSED_AND_WHITESPACE) in /home2/yaxkingu/public_html/demotienda/servidor/clases/actionshow.php on line 853
+[12-Oct-2016 11:42:21 America/Mexico_City] PHP Fatal error:  Call to undefined method showQuerys::ventasList() in /home2/yaxkingu/public_html/demotienda/cpanel/ventas.php on line 5
+[12-Oct-2016 11:43:52 America/Mexico_City] PHP Fatal error:  Call to undefined method showQuerys::ventasList() in /home2/yaxkingu/public_html/demotienda/cpanel/ventas.php on line 5
+[12-Oct-2016 11:43:54 America/Mexico_City] PHP Fatal error:  Call to undefined method showQuerys::ventasList() in /home2/yaxkingu/public_html/demotienda/cpanel/ventas.php on line 5
+[12-Oct-2016 12:44:19 America/Mexico_City] PHP Parse error:  syntax error, unexpected '.' in /home2/yaxkingu/public_html/demotienda/servidor/clases/actionshow.php on line 1407
+[12-Oct-2016 12:44:22 America/Mexico_City] PHP Parse error:  syntax error, unexpected '.' in /home2/yaxkingu/public_html/demotienda/servidor/clases/actionshow.php on line 1407
+[12-Oct-2016 12:45:15 America/Mexico_City] PHP Parse error:  syntax error, unexpected '.' in /home2/yaxkingu/public_html/demotienda/servidor/clases/actionshow.php on line 1407
+[12-Oct-2016 12:45:16 America/Mexico_City] PHP Parse error:  syntax error, unexpected '.' in /home2/yaxkingu/public_html/demotienda/servidor/clases/actionshow.php on line 1407
+[12-Oct-2016 12:45:40 America/Mexico_City] PHP Parse error:  syntax error, unexpected '.' in /home2/yaxkingu/public_html/demotienda/servidor/clases/actionshow.php on line 1407
+[12-Oct-2016 13:06:08 America/Mexico_City] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home2/yaxkingu/public_html/demotienda/servidor/clases/actionshow.php on line 1383
+[12-Oct-2016 13:06:11 America/Mexico_City] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home2/yaxkingu/public_html/demotienda/servidor/clases/actionshow.php on line 1383

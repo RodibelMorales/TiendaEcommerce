@@ -1,7 +1,7 @@
 <?php
 	session_start();
 	include ('servidor/clases/classcontroler.php');
-	$showcategorie = new showQuerys;	
+	$showcategorie = new showQuerys;
 ?>
 <!DOCTYPE html>
 <html>
@@ -9,22 +9,55 @@
 	<?php include('includesFrontEnd/head.php') ?>
 </head>
 <body>
-	<section class="container-fluid">
-		<section class="row">
+	<section class="container-fluid gigscreen">
+		<header class="navbar-fixed-top">
 			<?php include('includesFrontEnd/nav.php') ?>		
-		</section>
-		<section class="row">
+		</header>
+
+				<div class="containercart1">
+					<p class="cartHeader" data-toggle="modal"  data-target="#carritodetails">
+						<?php 
+						if(isset($_SESSION["products"])){
+						    echo "<i class='fa fa-shopping-cart' aria-hidden='true'></i>Mi Carrito (".count($_SESSION["products"]).")"; 
+							//echo $_SESSION["products"]++;
+
+						}else{
+						    echo "<i class='fa fa-shopping-cart' aria-hidden='true'></i>Mi Carrito (0)"; 
+							//echo $_SESSION["products"]=0;
+						}
+						?>
+					</p>
+					<div class="shopping-cart-box modal fade" id="carritodetails" role="dialog">
+					    <div class="modal-dialog">
+					      	<div class="modal-content ">
+					      		<form name="formpays" class="formpays">
+						            <div class="modal-header modalheadercustom">
+						          		<button type="button" class="close closecustom" data-dismiss="modal">&times;</button>
+						          		<h3><i class="fa fa-credit-card-alt faSpace" aria-hidden="true"></i> Mi Compras</h3>
+						        	</div>
+							        <div class="modal-body">		
+							    		<div id="shopping-cart-results"></div>
+							        </div>
+							        <div class="modal-footer modal-footercustom">
+							          <button type="submit" class="btn btn-success" type="submit"><i class="fa fa-money faSpace" aria-hidden="true"></i>Pagar ahora</button>
+							        </div>
+					      		</form>
+					      	</div>
+					    </div>
+
+					</div>
+				</div>
+		<section class="row marginafterfixed">
 			<!-------------------------------------------->
-			<div class="col-md-10">
+			<div class="col-md-12">
 				<div class="row">
 					<?php $showcategorie->showallproducts();?>
 				</div>
 			</div>
-			<div class="col-md-2">side bar rigth</div>
 		</section>
-		<?php include('includesFrontEnd/footer.php') ?>
+		
 	</section>
+	<?php include('includesFrontEnd/footer.php') ?>
 	<?php include('includesFrontEnd/jsfiles.php') ?>
 </body>
-
 </html>
